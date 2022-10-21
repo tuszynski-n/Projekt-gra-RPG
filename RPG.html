@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+       <script src="data.js"></script> 
+       <script src="script.js"></script>
+       <script src="okienka.js"></script>
+
+</head>
+<body>
+
+    <button id="Karczma" onclick="pokaz_okienko_budynku(this.id)">Karczma</button>
+    <button id="Namiot" onclick="pokaz_okienko_budynku(this.id)">Namiot Szamana</button>
+    <button id="Chatka" onclick="pokaz_okienko_budynku(this.id)">Chatka Znachora</button>
+    <button id="Sklep" onclick="pokaz_okienko_budynku(this.id)">Sklep</button>
+    <button id="Tablica" onclick="pokaz_okienko_budynku(this.id)">Tablica z zadaniami</button>
+
+
+    <hr>
+
+    <button onclick="pokaz_div()">Bohater</button>
+
+    <hr>
+
+    <div id="panel-lewy">
+        <h1>[nazwa gracza]</h1>
+    </div>
+    <div id="panel-prawy">
+        <h1>[ekwipunek]</h1>
+    </div>     
+        
+        <dialog id="okienko">
+        <h1 id="nazwa-budynku">Karczma</h1>
+        <hr>
+        <ul>
+            <li id="piwo">Piwo</li>
+            <li id="stek">Stek</li>
+            <li id="schabowy">schabowy</li>
+            <li id="zupa">zupa</li>
+        </ul>
+        </dialog>
+        
+        <dialog>
+        <h1 id="nazwa-budynku">Namiot Szamana</h1>
+        <hr>
+        <ul>
+            <li id="ziola">zioła lecznicze</li>
+            <li id="herbata">herbatki regeneracyjne</li>
+            <li id="nasiona">nasiona</li>
+            <li id="tatuaz">tatuaż</li>
+            <li id="tatuaz-polany">tatuaż polany krwią</li>
+        </ul>
+        </dialog>
+        
+        <dialog>
+        <h1 id="nazwa-budynku">Chatka Znachora</h1>
+        <hr>
+        <ul>
+            <li>opatrunek</li>
+            <li>mikstura leczenia</li>
+            <li>duża mikstura leczenia</li>
+        </ul>
+         </dialog>
+        
+        <dialog>
+        <h1 id="nazwa-budynku">Sklep</h1>
+        <hr>
+        <ul>
+            <li>zbroja</li>
+            <li>miecz</li>
+            <li>tarcza</li>
+            <li>magiczna książka</li>
+            <li>różdżka</li>
+            <li>zaczarowana różdżka</li>
+        </ul>
+         </dialog>  
+        
+        <dialog>
+        <h1 id="nazwa-budynku">Tablica z zadaniami</h1>
+        <hr>
+        <ul>
+            <li>zabij potwora na wzgórzu</li>
+            <li>odnaleź...</li>
+            <li>zrób...</li>
+            <li>zdobądź...</li>
+        </ul>
+        </dialog>
+</body>
+</html>
