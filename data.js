@@ -121,8 +121,8 @@ var env = {
     "budynki": [
 
         { "name": "Karczma", "value": 0},
-        { "name": "Namiot szamana", "value": 0},
-        { "name": "Chatka znachora", "value": 0},
+        { "name": "Namiot Szamana", "value": 0},
+        { "name": "Chatka Znachora", "value": 0},
         { "name": "Sklep", "value": 0},
         { "name": "Tablica z zadaniami", "value": 0},
 
@@ -149,5 +149,59 @@ var env = {
         { "name": "Karczma", "stats": [
             { "name": "zupa", "value": 0 },
         ]},
+        { "name": "Namiot Szamana", "stats": [
+            { "name": "zioła lecznicze", "value": 0 }
+        ]},
+        { "name": "Namiot Szamana", "stats": [
+            { "name": "herbatki regeneracyjne", "value": 0 }
+        ]},
+        { "name": "Namiot Szamana", "stats": [
+            { "name": "nasiona", "value": 0 }
+        ]},
+        { "name": "Namiot Szamana", "stats": [
+            { "name": "tatuaż", "value": 0 },
+        ]},
+        { "name": "Namiot Szamana", "stats": [
+            { "name": "tatuaż polany krwią", "value": 0 }
+        ]},
+        { "name": "Chatka Znachora", "stats": [
+            { "name": "opatrunek", "value": 0 }
+        ]},
+        { "name": "Chatka Znachora", "stats": [
+            { "name": "mikstura leczenia", "value": 0 },
+        ]},
+        { "name": "Chatka Znachora", "stats": [
+            { "name": "duża mikstura leczenia", "value": 0 }
+        ]},
+        { "name": "Sklep", "stats": [
+            { "name": "zbroja", "value": 0 }
+        ]},
+        { "name": "Sklep", "stats": [
+            { "name": "miecz", "value": 0 },
+        ]},
+        { "name": "Sklep", "stats": [
+            { "name": "tarcza", "value": 0 }
+        ]},
+        { "name": "Sklep", "stats": [
+            { "name": "magiczna książka", "value": 0 }
+        ]},
+        { "name": "Sklep", "stats": [
+            { "name": "różdżka", "value": 0 },
+        ]},
+        { "name": "Sklep", "stats": [
+            { "name": "zaczarowana różdżka", "value": 0 }
+        ]},
+        { "name": "Tablica z zadaniami", "stats": [
+            { "name": "zabij potwora na wzgórzu", "value": 0 }
+        ]},
+        { "name": "Tablica z zadaniami", "stats": [
+            { "name": "odnaleź...", "value": 0 }
+        ]},
+        { "name": "Tablica z zadaniami", "stats": [
+            { "name": "zrób...", "value": 0 }
+        ]},
+        { "name": "Tablica z zadaniami", "stats": [
+            { "name": "zdobądź...", "value": 0 },
+        ]},
     ]
-},
+}
